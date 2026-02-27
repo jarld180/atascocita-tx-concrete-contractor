@@ -9,7 +9,7 @@ interface LeadFormProps {
 const LeadForm: React.FC<LeadFormProps> = ({ 
   title = "Request a Free Quote",
   phone = "(346) 676-2963",
-  city = "City"
+  city = "Atascocita"
 }) => {
   const [formData, setFormData] = useState({
     name: '',
